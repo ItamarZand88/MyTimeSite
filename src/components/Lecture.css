@@ -1,0 +1,24 @@
+.card {
+    opacity: 0;
+    animation: fade-in 500ms forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .text-bg-primary {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .text-bg-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
